@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.cg.spring.plpmod20.Plpmod20ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.699 s <<< FAILURE! - in com.cg.spring.plpmod20.Plpmod20ApplicationTests
+contextLoads(com.cg.spring.plpmod20.Plpmod20ApplicationTests)  Time elapsed: 0.02 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.cg.spring.plpmod20.service.CouponServiceImpl] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@4f8e5cde]
+Caused by: java.lang.NoClassDefFoundError: Lcom/cg/spring/plpmod20/repo/CouponRepo;
+Caused by: java.lang.ClassNotFoundException: com.cg.spring.plpmod20.repo.CouponRepo
+
